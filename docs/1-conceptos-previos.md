@@ -1,6 +1,8 @@
 # 01 / Conceptos Previos
 Antes de comenzar con la configuración del entorno, es importante que todos los miembros del equipo tengan claridad sobre los conceptos fundamentales que se utilizan a lo largo de esta actividad. Esta sección no reemplaza la documentación oficial de AWS, pero sí contiene el contexto minimo que necesitan para desarrollar la actividad. 🤠
 
+---
+
 ## 1. ¿Qué es AWS?
 AWS (Amazon Web Services) es la plataforma de servicios en la nube de Amazon. Ofrece infraestructura tecnológica bajo demanda: servidores, bases de datos, almacenamiento, redes, seguridad y mucho más, todo accesible desde internet sin necesidad de hardware físico propio.<br><br>
 En lugar de comprar y mantener servidores, con AWS se alquila capacidad computacional y se paga únicamente por lo que se usa.<br><br>
@@ -48,10 +50,12 @@ Una **Key Pair** (par de llaves) es el mecanismo de autenticación que utiliza A
 Está compuesta por dos partes:.<br><br>
 **Llave pública**: AWS la instala automáticamente dentro de la instancia al momento de crearla. No es necesario manipularla directamente..<br><br>
 **Llave privada (.pem)**: es el archivo que se descarga al crear el Key Pair desde la consola de AWS. Es el único medio para autenticarse ante la instancia. Si se pierde, no es posible recuperarlo.
- 
+
 > ⚠️ El archivo `.pem` se descarga una sola vez. Una vez cerrado el asistente de creación, AWS no vuelve a mostrarlo. Guárdalo en un lugar seguro desde el primer momento.
 
 En esta actividad, cada integrante generó su propio Key Pair al crear su instancia.
+
+---
 
 ## 5. ¿Qué es SSH y cómo funciona el sistema de llaves?
 **SSH** (Secure Shell) es un protocolo de red que permite conectarse a una máquina remota de forma segura a través de la terminal. Es el método que usamos para acceder a las instancias EC2.<br><br>
