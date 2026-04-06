@@ -44,3 +44,18 @@
 3. [`Cambiar la contraseña en el primer ingreso`](docs/3-ingreso-ala-consola-AWS.md#03--ingreso-a-la-consola-de-aws-con-usuario-iam)
 4. [`Reconocer los permisos del rol asignado`](docs/3-ingreso-ala-consola-AWS.md#paso-4--reconocer-los-permisos-del-rol-asignado)
 5. [`Verificar la región de trabajo`](docs/3-ingreso-ala-consola-AWS.md#paso-5--verificar-la-región-de-trabajo)
+
+---
+
+## Sección 4 / Creación de las instancias EC2
+
+1. [`Ingresar a EC2 y lanzar una instancia`](docs/4-crear-instancias.md#paso-1--ingresar-a-ec2-y-lanzar-una-instancia)
+2. [`Nombre de la instancia`](docs/4-crear-instancias.md#paso-2--nombre-de-la-instancia)
+3. [`Elegir la AMI`](docs/4-crear-instancias.md#paso-3--elegir-la-ami)
+4. [`Tipo de instancia`](docs/4-crear-instancias.md#paso-4--tipo-de-instancia)
+5. [`Crear el Key Pair`](docs/4-crear-instancias.md#paso-5--crear-el-key-pair)
+6. [`Configurar Network settings`](docs/4-crear-instancias.md#paso-6--configurar-network-settings)
+7. [`Almacenamiento`](docs/4-crear-instancias.md#paso-7--almacenamiento)
+8. [`Lanzar la instancia`](docs/4-crear-instancias.md#paso-8--lanzar-la-instancia)
+9. [`Obtener el DNS público y compartirlo con el equipo`](docs/4-crear-instancias.md#paso-9--obtener-el-dns-público-y-compartirlo-con-el-equipo)
+10. [`Cada Worker crea su instancia`](docs/4-crear-instancias.md#42--cada-worker-crea-su-instancia)
