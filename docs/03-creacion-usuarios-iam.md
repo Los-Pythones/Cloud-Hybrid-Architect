@@ -3,7 +3,7 @@ Esta sección está dirigida principalmente al Líder del equipo, ya que es quie
 
 ---
 
-# ¿Por qué no trabajar directamente con la cuenta root?
+## ¿Por qué no trabajar directamente con la cuenta root?
 La cuenta root es la que se creó al registrarse en AWS con el correo del equipo. Tiene acceso total e irrestricto a todos los recursos y configuraciones de la cuenta, sin ninguna limitación.
 Trabajar directamente con la cuenta root para las tareas del día a día representa un riesgo innecesario: cualquier error cometido desde esa cuenta puede tener consecuencias irreversibles. Por esa razón, la práctica estándar en AWS es usar la cuenta root únicamente para la configuración inicial y luego crear usuarios IAM individuales para cada persona, con únicamente los permisos que necesitan para su rol.
 En esta actividad, el Líder usó la cuenta root exclusivamente para crear los grupos, las políticas y los usuarios IAM. A partir de ese punto, cada integrante trabajó desde su propio usuario.

@@ -10,8 +10,8 @@
 ---
 
 ## Sección 0 / Introduccción
-1. [`Contexto de la actividad`](docs/00-introducción.md)    
-2. [`Diagrama de los equipos con sus roles`](docs/00-introducción.md)    
+1. [`Contexto de la actividad`](docs/00-introducción.md#contexto-de-la-actividad)    
+2. [`Diagrama de los equipos con sus roles`](docs/00-introducción.md#diagrama-de-los-equipos-con-sus-roles)    
 
 ---
 
@@ -79,20 +79,20 @@
 
 ## Sección 6 / Creación de las instancias EC2
 
-**6.1 El Líder crea el Master**
-1. [`Ingresar a EC2 y lanzar una instancia`](docs/06-crear-instancias.md#paso-1--ingresar-a-ec2-y-lanzar-una-instancia)
-2. [`Nombre de la instancia`](docs/06-crear-instancias.md#paso-2--nombre-de-la-instancia)
-3. [`Elegir la AMI`](docs/06-crear-instancias.md#paso-3--elegir-la-ami)
-4. [`Tipo de instancia`](docs/06-crear-instancias.md#paso-4--tipo-de-instancia)
-5. [`Crear el Key Pair`](docs/06-crear-instancias.md#paso-5--crear-el-key-pair)
-6. [`Configurar Network settings`](docs/06-crear-instancias.md#paso-6--configurar-network-settings)
-7. [`Almacenamiento`](docs/06-crear-instancias.md#paso-7--almacenamiento)
-8. [`Lanzar la instancia`](docs/06-crear-instancias.md#paso-8--lanzar-la-instancia)
-9. [`Obtener el DNS público y compartirlo`](docs/06-crear-instancias.md#paso-9--obtener-el-dns-público-y-compartirlo-con-el-equipo)
+1. **6.1 El Líder crea el Master**
+   - [`Ingresar a EC2 y lanzar una instancia`](docs/06-crear-instancias.md#paso-1--ingresar-a-ec2-y-lanzar-una-instancia)
+   - [`Nombre de la instancia`](docs/06-crear-instancias.md#paso-2--nombre-de-la-instancia)
+   - [`Elegir la AMI`](docs/06-crear-instancias.md#paso-3--elegir-la-ami)
+   - [`Tipo de instancia`](docs/06-crear-instancias.md#paso-4--tipo-de-instancia)
+   - [`Crear el Key Pair`](docs/06-crear-instancias.md#paso-5--crear-el-key-pair)
+   - [`Configurar Network settings`](docs/06-crear-instancias.md#paso-6--configurar-network-settings)   
+   - [`Almacenamiento`](docs/06-crear-instancias.md#paso-7--almacenamiento)
+   - [`Lanzar la instancia`](docs/06-crear-instancias.md#paso-8--lanzar-la-instancia)
+   - [`Obtener el DNS público y compartirlo`](docs/06-crear-instancias.md#paso-9--obtener-el-dns-público-y-compartirlo-con-el-equipo)
 
-**6.2 Cada Worker crea su instancia**
-1. [`Diferencias en Network settings`](docs/06-crear-instancias.md#paso-6--configurar-network-settings-workers)
-2. [`Compartir la IP privada con el Líder`](docs/06-crear-instancias.md#al-finalizar--compartir-la-ip-privada-con-el-líder)
+2. **6.2 Cada Worker crea su instancia**
+   - [`Diferencias en Network settings`](docs/06-crear-instancias.md#paso-6--configurar-network-settings-workers)
+   - [`Compartir la IP privada con el Líder`](docs/06-crear-instancias.md#al-finalizar--compartir-la-ip-privada-con-el-líder)
 
 ---
 

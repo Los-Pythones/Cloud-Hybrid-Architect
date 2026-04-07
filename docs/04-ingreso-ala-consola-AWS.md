@@ -30,7 +30,7 @@ Hacer clic en `Sign in`.
 
 ---
 
-## Paso 3 — Cambiar la contraseña en el primer ingreso
+## Paso 3 / Cambiar la contraseña en el primer ingreso
 AWS solicitará de forma obligatoria el cambio de contraseña en el primer inicio de sesión, ya que el Líder activó la opción "Users must create a new password at next sign-in" al crear cada usuario.<br><br>
 En la pantalla de cambio de contraseña:
 
