@@ -28,6 +28,7 @@ AWS asigna automáticamente una VPC por defecto a cada cuenta en cada región. S
 | **IPv4 CIDR block** | `10.0.0.0/16`      |
 | **IPv6 CIDR block** | No IPv6 CIDR block |
 | **Tenancy**         | Default            |
+
 ![Configured VPC](../assets/screenshots/VPC/01-config-VPC.png)
 4. Hacer clic en `Create VPC`.
 

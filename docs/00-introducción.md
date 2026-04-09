@@ -28,6 +28,7 @@ Para que la infraestructura funcione correctamente, se definió una jerarquía d
 | **Ingeniero de Datos 2** | `Data Engineer / Worker` | Configuración de `worker-1` y gestión de almacenamiento en S3.            |
 | **Analista de Datos 1**  | `Data Analyst / Worker`  | Configuración de `worker-2` y análisis de consultas mediante Athena.      |
 | **Analista de Datos 2**  | `Data Analyst / Worker`  | Configuración de `worker-3` y visualización de tendencias de datos.       |
+
 ![Diagrama de la arquitectura](../assets/Graphics/01-diagrama-arquitectura.png)
 
 ---

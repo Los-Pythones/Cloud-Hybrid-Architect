@@ -10,6 +10,7 @@
 ---
 
 ## Sección 0 / Introduccción
+
 1. [`Contexto de la actividad`](docs/00-introducción.md#contexto-de-la-actividad)    
 2. [`Diagrama de los equipos con sus roles`](docs/00-introducción.md#diagrama-de-los-equipos-con-sus-roles)    
 
@@ -97,6 +98,7 @@
 ---
 
 ## Sección 7 / Conexión Master → Workers por SSH
+
 1. [`7.1 ¿Por qué el Master necesita la llave de los Workers?`](docs/07-conexion-master-workers.md#71--por-qué-el-master-necesita-la-llave-de-los-workers)
 2. [`7.2 Crear el Host del Master en Termius y conectarse`](docs/07-conexion-master-workers.md#72--crear-el-host-del-master-en-termius-y-conectarse)
    - [`Crear el Keychain en Termius`](docs/07-conexion-master-workers.md#crear-el-keychain-en-termius)
@@ -114,3 +116,13 @@
 6. [`7.6 Probar la conexión desde el Master`](docs/07-conexion-master-workers.md#76--probar-la-conexión-desde-el-master-hacia-cada-worker)
    - [`Conectarse a cada Worker`](docs/07-conexion-master-workers.md#conectarse-a-worker-1)
    - [`Tabla resumen de conexiones`](docs/07-conexion-master-workers.md#tabla-resumen-de-conexiones)
+
+---
+
+## Sección 8 / Verificación final
+
+1. [`Checklist del sistema completo`](docs/08-verificacion-final.md#1--checklist-del-sistema-completo)
+2. [`Verificar la VPC y la red`](docs/08-verificacion-final.md#2--verificar-la-vpc-y-la-red)
+3. [`Verificar el acceso al Master`](docs/08-verificacion-final.md#3--verificar-el-acceso-al-master)
+4. [`Verificar el acceso a los Workers desde el Master`](docs/08-verificacion-final.md#4--verificar-el-acceso-a-los-workers-desde-el-master)
+5. [`Verificar que los Workers no tienen salida a internet`](docs/08-verificacion-final.md#5--verificar-que-los-workers-no-tienen-salida-a-internet)

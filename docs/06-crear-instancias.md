@@ -93,16 +93,6 @@ En la sección **Network settings** hacer clic en `Edit` y configurar así:
 
 > ⚠️ Verificar que **Auto-assign public IP** esté en `Enable`. Sin esto el Master no tendrá IP pública y no será posible conectarse a él desde internet.
 
-En cuanto al tráfico entrante, dejar solo la regla SSH activada:
-
-| Regla                                     | Acción                                   | Motivo                                                    |
-|:------------------------------------------|:-----------------------------------------|:----------------------------------------------------------|
-| **Allow SSH traffic from**                | ✅ Activar — origen: `Anywhere 0.0.0.0/0` | Permite conectarse al Master desde cualquier IP           |
-| **Allow HTTPS traffic from the internet** | ☐ Desactivado                            | No se expone ningún servicio web seguro en esta actividad |
-| **Allow HTTP traffic from the internet**  | ☐ Desactivado                            | No se expone ningún servicio web en esta actividad        |
-
-> ⚠️ AWS mostrará una advertencia en amarillo indicando que el origen `0.0.0.0/0` permite acceso desde cualquier IP. Para esta actividad académica es aceptable. En entornos productivos siempre se debe restringir a IPs conocidas.
-
 ---
 
 ### Paso 7 / Almacenamiento
