@@ -28,9 +28,9 @@ Computador local del Líder
         ▼
   SRV-MASTER-DATA  ──────────────────────────────────────────────┐
         │  (SSH con SRV-WORKER-X-KEY.pem)                        │
-        ▼                                                         │
+        ▼                                                        │
   SRV-WORKER-1                                                   │
-  SRV-WORKER-2    ◄──── Solo accesibles desde dentro de la VPC ─┘
+  SRV-WORKER-2    ◄──── Solo accesibles desde dentro de la VPC <─┘
   SRV-WORKER-3
 ```
 
@@ -65,6 +65,7 @@ El Keychain es donde Termius almacena las llaves privadas de forma segura. Antes
 | **Label**       | `SRV-MASTER-KEY`                                                                                 |
 | **Private Key** | Hacer clic en `Import from file` y seleccionar el archivo `SRV-MASTER-KEY.pem` descargado de AWS |
 | **Passphrase**  | Dejar vacío (las llaves de AWS no tienen passphrase por defecto)                                 |
+
 ![Keychan Config](../assets/screenshots/Termius/00-keychan-config.png)
 5. Los cambios se guardan automáticamente, por lo que no tienes que pulsar ningún botón; puedes continuar con el siguiente paso.
 
@@ -84,6 +85,7 @@ El Keychain es donde Termius almacena las llaves privadas de forma segura. Antes
 | **Username**            | `ubuntu`                                                           |
 | **Password**            | Dejar vacío                                                        |
 | **Keys & Certificates** | Seleccionar la llave `SRV-MASTER-KEY` creada en el Keychain        |
+
 ![Host Config](../assets/screenshots/Termius/01-host-config.png)
 4. Puedes darle al botón azul `Connect` para entrar a la instancia.
 
